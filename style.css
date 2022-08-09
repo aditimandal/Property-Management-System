@@ -1,0 +1,266 @@
+*{
+    box-sizing: border-box;
+
+
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #E0DDAA;
+    background-image: url(https://assets-news.housing.com/news/wp-content/uploads/2020/11/24190402/What-is-an-immovable-property-FB-1200x700-compressed.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* width: 200px; */
+    
+    height: 100vh;
+    background-position: center;
+    /* background-size: 100rem 54vw; */
+}
+
+
+.tool-box-container{
+    height: 6.5rem;
+    background-color: #141E27;
+    display: flex;
+    /* align-items: center;
+    position:fixed; */
+    width: 100vw;
+    top:0;
+
+
+}
+
+.action-btn{
+    height: 4rem;
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    margin-left: 4rem;
+    margin-top: 1.2rem;
+    
+    background-color: wheat;
+    justify-content: space-evenly;
+
+}
+
+
+.add-btn{
+    background-color: grey;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    font-size: 1.5rem;
+
+}
+
+
+.remove-btn{
+    background-color: grey;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    font-size: 1.5rem;
+}
+.increasing{
+    background-color: grey;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    font-size: 1.5rem;
+
+}
+
+/* modal container */
+.modal-cont{
+    /* height: 50vh;
+    width: 50vw;
+    background-color: grey;
+    border:3px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7.5rem;
+    margin-left: 25rem; */
+    display: none;
+
+}
+.CONT{
+    height: 50vh;
+    width: 50vw;
+    background-color: grey;
+    border:3px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7.5rem;
+    margin-left: 25rem;
+    margin-bottom: 8rem;
+    /* position: absolute; */
+    
+    
+}
+
+.name{
+    display: flex;
+    
+}
+
+.description{
+    display: flex;
+    
+}
+
+.size{
+    display: flex;
+   
+}
+
+.submit-btn{
+    display: flex;
+    
+    
+
+}
+.Name{
+    padding: 2rem;
+
+}
+.Description{
+    padding: 2rem;
+
+}
+
+.Size{
+    padding: 2rem;
+
+}
+/* .submit-btn{
+
+} */
+.name-cont{
+    outline: none;
+    resize: none;
+    border: none;
+    background-color: #EEEDDE;
+    width: 55%;
+    height: 15px;
+    font-size: 1rem;
+    padding: 2rem;
+    margin-top: 1rem;
+    margin-left: 10rem;
+}
+.des-cont{
+    outline: none;
+    resize: none;
+    border: none;
+    background-color: #EEEDDE;
+    width: 55%;
+    height: 15px;
+    font-size: 1rem;
+    padding: 2rem;
+    margin-top: 1rem;
+    margin-left: 6.5rem;
+
+}
+.size-cont{
+    outline: none;
+    resize: none;
+    border: none;
+    background-color: #EEEDDE;
+    width: 55%;
+    height: 15px;
+    font-size: 1rem;
+    padding: 2rem;
+    margin-top: 1rem;
+    margin-left: 11rem;
+
+}
+.Submit-btn{
+    height: 2.5rem;
+    width: 7rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.ticket-cont{
+    height: 10vh;
+    width: 80vw;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    margin-left: 9rem;
+    margin-top: 2rem;
+    /* box-shadow: 20px 20px 50px 10px rgb(81, 74, 121) inset; */
+    box-shadow: 20px 20px 50px 10px #375a6f inset;
+    
+
+    
+    
+
+}
+.holder-id{
+    background-color:rgb(203, 200, 200) ;
+    width: 5rem;
+    height: 2rem;
+    padding: 0.4rem;
+    font-size: 15px;
+
+}
+.Property-name{
+    background-color:rgb(203, 200, 200) ;
+    padding: 3px;
+    width: 17rem;
+    height: 2.5rem;
+    overflow: auto;
+    word-break: break-all;
+    font-size: 16px;
+    padding: 1rem;
+    
+
+}
+.Property-Description{
+    background-color:rgb(203, 200, 200) ;
+    word-wrap: break-word;
+    width: 17rem;
+    height: 2.5rem;
+    overflow: auto;
+    word-break: break-all;
+    font-size: 16px;
+    padding: 1rem;
+    
+
+}
+.Property-size{
+    background-color: rgb(203, 200, 200);
+    width: 10rem;
+    height: 2.5rem;
+    overflow: auto;
+    word-break: break-all;
+    font-size: 16px;
+    padding: 1rem;
+
+}
+
+.main-cont{
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2rem; 
+    
+    
+}
+
+.edit{
+    height: 2.5rem;
+    width: 4rem;
+}
